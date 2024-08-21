@@ -1,0 +1,482 @@
+/*index*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 39, 44);
+}
+
+img{
+    max-width: 100%;
+}
+.menu a{
+    text-align: center;
+    color: rgb(253, 246, 246);
+    text-decoration: none;
+    padding: 0.5em 0em;
+    display: block;
+}
+.menu a :hover{
+    background-color: aliceblue;
+}
+.menu-items{
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu-icon{
+    padding: 0.9rem 1rem;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    display: none;
+}
+.menu-items{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin: 0;
+    padding: 1em 0;
+    
+}
+.menu-items li{
+    flex: 1;
+}
+.menu-items li:hover{
+    background-color: rgba(0, 0, 0, 0.552);
+}
+.menu{
+    overflow: hidden;
+    background-image: url(../bg.jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.433);
+}
+
+.logo{
+    width: 98px;
+    height: 100px;
+    margin-top: -5.5em;
+}
+header{
+    text-align: center;
+    background-color: rgb(37, 57, 77);
+    margin: 1em 0;
+    padding: 1em 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+    color: white;
+    display: flex;
+    padding: 0em 1em;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.079);
+}
+.godkratos{
+    width: 50%;
+    padding: 1em 0em;
+    margin: 0 2em;
+}
+.textogod{
+    width: 18%;
+}
+.historia{
+    width: 60%;
+    display: flex;
+    padding: 0em 1em;
+    color: white;
+    text-align: justify;
+}
+.contenedor1{
+    display: flex;
+    width: 0em 3em;
+}
+.textohistoria{
+    text-align: justify;
+}
+.Titulopersonajes{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+.iconkratos{
+    width: 90px;
+    height: 90px;
+    transition: all .5s;
+    filter: brightness(0) saturate(100%) invert(96%) sepia(52%) saturate(2%) hue-rotate(39deg) brightness(111%) contrast(100%);
+}
+.iconkratos:hover{
+    transform: scale(1.2);
+}
+.contenedortext{
+    padding: 1em 3em;
+    width: 40%;
+    display: flex;
+    text-align: justify;
+}
+.videok{
+    width: 60%;
+    margin: 2em 0;
+}
+.menu-footer{
+    background-color: rgb(26, 48, 56);
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 2em 0;
+    margin: 3em 0;
+}
+.menu-footer li{
+    flex: 1;
+    text-align: center;
+}
+.activado{
+    background-color: rgb(11, 59, 70);
+}
+
+/*personajes*/
+
+.contenedorperso{
+    color: white;
+    display: flex;
+    margin: 0 4em;
+    background-color: rgba(0, 0, 0, 0.079);
+}
+.poster{
+    width: 350px;
+    height: 350px;
+    margin: 0 4em;
+    border-radius: 20px;
+    transition: all .4s;
+}
+.poster:hover{
+    transform: scale(0.8);
+}
+.contenedorperso p{
+    font-size: 0.9em;
+}
+.textoposter{
+    text-align: justify;
+}
+.textoposter h2{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+
+/*Niveles de poder*/
+
+.inicio{
+    text-align: center;
+    color: white;
+    margin: 1em 0;
+    text-align: justify;
+}
+.intro1{
+    background-color: rgb(26, 48, 56);
+    color: white;
+    text-align: center;
+    margin: 1em 0;
+}
+.armas{
+    color: white;
+    margin: 1em 4em;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+.armas1{
+    margin: 2em 0;
+    display: flex;
+    font-size: 0.6em;
+    text-align: center;
+}
+.armasimg{
+    width: 100px;
+    height: 100px;
+    transition: all .5s;
+    border-radius: 20px;
+    margin: 0 1em;
+}
+.armasimg:hover{
+    transform: scale(1.2);
+}
+.armas h2{
+    font-size: 0.9em;
+    text-align: center;
+}
+.nivelesvideo{
+    margin: 0 2em;
+    color: white;
+    display: flex;
+    font-size: 0.9em;
+    text-align: justify;
+}
+/*dioses*/
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.items{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+.items:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0.20);
+}
+
+.items img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    transition: all .5s;
+}
+.items :hover img{
+    transform: scale(1.2);
+}
+.items figure{
+    overflow: hidden; 
+}
+.info-product{
+    padding: 5px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-product button{
+    border: none;
+    background: none;
+    background-color: rgba(0, 0, 0, 0.353);
+    color: white;
+    padding: 20px 80px;
+    cursor: pointer;
+}
+.info-product h2{
+    color: white;
+    text-align: center;
+    margin: 0; 
+}
+.inicio1{
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.568);
+    text-align: justify;
+}
+#menu-touggle{
+    display: none;
+}
+/*descripcion personajes*/
+
+.infoperso{
+    color: white;
+    display: flex;
+    width: 90%;
+    margin: 0 3em;
+    background-color: rgba(0, 0, 0, 0.253);
+    text-align: justify;
+}
+.infoperso1{
+    margin: 0 30px;
+}
+.imgzeus{
+    transition: all .5s;
+    width: 400px;
+    height: 400px;
+    margin: 0 3em;
+}
+.imgzeus:hover{
+    transform: scale(1.1);
+}
+
+/*Footer*/
+
+.intro{
+    color: white;
+    text-align: center;
+    margin: 3em 0;
+    text-align: justify;
+}
+
+.footerimg{
+    width: 50px;
+    height: 50px;
+    display: flex; 
+    margin: 0 1em;
+}
+.textofooter{
+    text-align: center;
+    margin: -5em 16em;
+    color: white;
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+    .menu-items{
+        flex-direction: column;
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menu-touggle:checked + .menu-icon + .menu-items{
+        display: flex;
+    }
+    .contenedor1{
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.079);
+    }
+    .historia{
+        width: 90%;
+        padding: 1em;
+        font-size: 0.7em;
+        text-align: justify;
+        margin: 1em;
+    }
+    .godkratos{
+        margin: auto;
+        width: 450px;
+        padding: 0;
+    }
+    .iconkratos{
+        margin: auto;
+    }
+    .contenedortext{
+        width: 90%;
+        height: 280px;
+        padding: 0;
+        margin: auto;
+        text-align: justify;
+    }
+    .contenedor{
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.079);
+        margin: 2em 0;
+    }
+    .videok{
+        width: 100%;
+        margin: auto;
+    }
+    .contenedor p{
+        width: 100%;
+        font-size: 1em;
+        text-align: justify;
+        margin: 1em 0;
+    }
+
+
+    .contenedorperso{
+        flex-direction: column;
+        margin: 2em;
+    }
+    .poster{
+        margin: auto;
+        width: 200px;
+        height: 200px;
+    }
+    .intro{
+        margin: auto;
+        font-size: 0.8em;
+        text-align: justify;
+    }
+
+
+    .inicio{
+        font-size: 0.8em;
+        text-align: justify;
+    }
+    .armas{
+        flex-direction: column;
+        margin: 1em 2em;
+    }
+    .armas1{
+        text-align: justify;
+    }
+
+    .nivelesvideo{
+        flex-direction: column;
+        margin: auto;
+    }
+    .nivelesvideo p{
+        flex-direction: column;
+        margin: 2em 2em;
+        text-align: justify;
+    }
+    .armasimg{
+        margin: auto;
+    }
+
+    .container-items{
+        grid-template-columns: auto;
+        margin: auto;
+    }
+    .infoperso{
+        margin: auto;
+        flex-direction: column;
+        text-align: justify;
+    }
+    .textofooter{
+        margin: auto;
+    }
+
+} 
+@media screen and (min-width: 601px) and ( max-width:1100px) {
+    .contenedor1{
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.079);
+    }
+    .godkratos{
+        width: 100%;
+    }
+    .historia{
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+        font-size: 0.8em;
+        margin: 0 2em;
+    }
+    .contenedor p{
+        font-size: 0.7em;
+        width: 100%;
+    }
+    .videok{
+        width: 100%;
+    }
+    .textofooter{
+        margin: auto;
+    }
+    
+    .contenedorperso{
+        flex-direction: column;
+    }
+    .intro{
+        text-align: justify;
+    }
+    .armas{
+        width: 90%;
+        font-size: 1em;
+        margin: 1em 2em;
+    }
+    .armas1{
+        text-align: justify;
+    }
+    .nivelesvideo{
+        margin: auto;
+        flex-direction: column;
+        font-size: 0.8em;
+        text-align: justify;
+    }
+    .container-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .infoperso{
+        width: 90%;
+        font-size: 0.7em;
+        text-align: justify;
+    }
+}
