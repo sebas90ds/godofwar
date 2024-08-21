@@ -340,7 +340,7 @@ header{
     }
     .godkratos{
         margin: auto;
-        width: 450px;
+        width: 400px;
         padding: 0;
     }
     .iconkratos{
@@ -348,7 +348,6 @@ header{
     }
     .contenedortext{
         width: 90%;
-        height: 280px;
         padding: 0;
         margin: auto;
         text-align: justify;
@@ -413,6 +412,9 @@ header{
 
     .container-items{
         grid-template-columns: auto;
+        margin: auto;
+    }
+    .info-product button{
         margin: auto;
     }
     .infoperso{
