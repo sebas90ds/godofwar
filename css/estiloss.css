@@ -7,6 +7,7 @@ body{
 img{
     max-width: 100%;
 }
+
 .menu a{
     text-align: center;
     color: rgb(253, 246, 246);
@@ -410,6 +411,10 @@ header{
         margin: auto;
     }
 
+    .imgzeus{
+        margin: auto;
+    }
+
     .container-items{
         grid-template-columns: auto;
         margin: auto;
@@ -480,5 +485,8 @@ header{
         width: 90%;
         font-size: 0.7em;
         text-align: justify;
+    }
+    .imgzeus{
+        margin: auto;
     }
 }
